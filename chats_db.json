@@ -1,5 +1,198 @@
 [
   {
+    "id": "session-mmuk3sidf",
+    "userId": "user-t4cs2a0q5",
+    "title": "Draft a comprehensive Memorandum of...",
+    "role": "lawyer",
+    "messages": [
+      {
+        "id": "lawyer-welcome-ciprewmhi",
+        "role": "assistant",
+        "content": "Counsel advocate, welcome to your specialized **Jua Sheria litigation brainstorm hub**.\n\nI am primed with the Constitution of Kenya 2010, the Employment Act Chapter 226, Tenant legislation, and Chapter 63 of the Penal Code.\n\nOn this split workspace, you can:\n1. Brainstorm legal theories, check statutory elements of proof, and evaluate adversarial defenses on the **Chat interface**.\n2. Edit agreements, draft pleadings, and export your legal submissions directly in the **Scratchpad workspace**.\n\n*Quick Actions:* Use the suggestions below to initialize statutory reviews, or click \"Append to Draft\" on any message to transfer findings instantly to your editor.",
+        "timestamp": "16:43"
+      },
+      {
+        "id": "msg-mpldu6kcq",
+        "role": "user",
+        "content": "Draft a comprehensive Memorandum of Defense for an illegal tenant eviction under the Landlord and Tenant Act. Focus on the requirements of Section 4 notice and the Landlord's obligations to keep premises habitable in Section 12.",
+        "timestamp": "16:43"
+      },
+      {
+        "id": "msg-zpg51orp5",
+        "role": "assistant",
+        "content": "### REPUBLIC OF KENYA\n### IN THE RENT RESTRICTION TRIBUNAL AT [INSERT LOCATION]\n### TRIBUNAL CASE NO. [INSERT CASE NUMBER] OF 2024\n\n**BETWEEN**\n\n**[TENANT'S NAME]** .................................................................................... **APPLICANT/DEFENDANT**\n\n**AND**\n\n**[LANDLORD'S NAME]** ............................................................................ **RESPONDENT/PLAINTIFF**\n\n---\n\n### **STATEMENT OF DEFENCE AND COUNTERCLAIM**\n\nThe Defendant, in response to the Plaintiff’s Plaint/Reference dated **[Insert Date]**, states and counterclaims as follows:\n\n#### **I. STATEMENT OF DEFENCE**\n\n1. Save as is hereinafter expressly admitted, the Defendant denies each and every allegation of fact contained in the Plaint as if the same were set out herein and traversed *seriatim*.\n\n2. The Defendant admits the existence of a tenancy relationship between the Plaintiff and the Defendant in respect of the premises known as **[Insert Property Description/L.R. Number]** (hereinafter referred to as \"the suit premises\").\n\n3. The Defendant denies that the Plaintiff lawfully terminated the tenancy or that the Plaintiff is entitled to evict the Defendant, recover possession, or claim any alleged arrears of rent, and puts the Plaintiff to strict proof thereof.\n\n#### **II. BREACH OF STATUTORY NOTICE REQUIREMENTS**\n4. The Defendant states that the Plaintiff’s purported eviction and/or termination of tenancy is illegal, unlawful, and null and void *ab initio* for failure to comply with the mandatory statutory procedures.\n\n5. Specifically, the Plaintiff has failed to serve the Defendant with any statutory notice of termination or notice of increment/alteration of tenancy terms in the prescribed statutory form as strictly required under **[Citation: Section 4 of the Landlord and Tenant Act]**. \n\n6. Under **[Citation: Section 4 of the Landlord and Tenant Act]**, no landlord shall evict a tenant, alter any terms of tenancy, or increase rent without first serving a notice of increment or change in the prescribed statutory form, or by obtaining corresponding consent from the tenant. The Plaintiff’s unilateral attempt to evict the Defendant without recourse to the Rent Restriction Tribunal or service of the prescribed form is a direct violation of this statutory protection.\n\n#### **III. BREACH OF THE IMPLIED COVENANT OF HABITABILITY**\n7. The Defendant further states that the Plaintiff is in material breach of their statutory obligations to maintain the suit premises in a tenantable condition. \n\n8. The Defendant invokes **[Citation: Section 12 of the Landlord and Tenant Act]**, which establishes an implied covenant in every tenancy agreement that the landlord is responsible for keeping the premises in a good state of repair and fit for human habitation. The Plaintiff has failed, neglected, and/or refused to undertake critical structural repairs, water and drainage system maintenance, and common area upkeep despite receiving multiple written notifications from the Defendant.\n\n9. By reason of the Plaintiff's failure to maintain the suit premises, the Defendant has suffered extreme inconvenience, loss of quiet enjoyment, and has been forced to live in conditions unfit for human habitation, constituting constructive eviction. \n\n10. Pursuant to **[Citation: Section 12 of the Landlord and Tenant Act]**, where a landlord fails to maintain the premises, the tenant is entitled to seek remedy from the Tribunal or seek authorization to repair and deduct the incurred costs from the monthly rent. The Defendant intends to seek a set-off for all expenses incurred in making emergency repairs to the drainage and structural elements of the suit premises.\n\n#### **IV. COMPLIANCE WITH TENANT OBLIGATIONS**\n11. The Defendant has at all material times complied with the tenant's obligations under **[Citation: Section 15 of the Landlord and Tenant Act]** by maintaining the interior of the premises in a clean and tenantable condition and has only withheld or deducted rent strictly to the extent of repairing the structural defects left unattended by the Plaintiff, or as a consequence of the Plaintiff's refusal to accept lawfully tendered rent.\n\n12. The Defendant states that any alleged rent arrears are a direct result of the Plaintiff's unlawful refusal to accept rent in an attempt to manufacture a ground for eviction, or represent costs incurred by the Defendant to remedy the Plaintiff's breaches under **[Citation: Section 12 of the Landlord and Tenant Act]**.\n\n---\n\n### **COUNTERCLAIM**\n\n13. The Defendant repeats and realleges the contents of paragraphs 1 to 12 hereinabove and claims against the Plaintiff as follows:\n\n14. The Defendant is the lawful tenant of the suit premises and enjoys constitutional protection of their possessory and property rights under **[Citation: Article 40 of the Constitution of Kenya 2010]**, which protects persons from arbitrary deprivation of property or any interest in, or right over, property.\n\n15. The Plaintiff has engaged in acts of harassment, including but not limited to cutting off essential utility services (water and electricity), locking out the Defendant, and threatening forcible eviction without a court order, in flagrant violation of **[Citation: Section 4 of the Landlord and Tenant Act]** and **[Citation: Article 40 of the Constitution of Kenya 2010]**.\n\n**REASONS WHEREFOR** the Defendant/Counter-Claimant prays for:\n1. A declaration that the Plaintiff’s attempted eviction of the Defendant without complying with **[Citation: Section 4 of the Landlord and Tenant Act]** is illegal, unlawful, and null and void.\n2. An order of permanent injunction restraining the Plaintiff, their agents, servants, and/or proxies from evicting, harassing, or interfering with the Defendant’s quiet enjoyment of the suit premises.\n3. An order directing the Plaintiff to undertake immediate structural and drainage repairs to the suit premises to make them fit for human habitation in compliance with **[Citation: Section 12 of the Landlord and Tenant Act]**.\n4. In the alternative, an order authorizing the Defendant to undertake the necessary repairs and deduct the costs from future rent payments pursuant to **[Citation: Section 12 of the Landlord and Tenant Act]**.\n5. Special damages for loss and damage suffered as a result of the illegal utility disconnections and constructive eviction.\n6. Costs of this suit and interest.\n\nDATED at **[Insert Location]** this ................... day of .................................... 2024.\n\n**[COUNSEL'S FIRM NAME]**  \n<u>**ADVOCATES FOR THE DEFENDANT/COUNTER-CLAIMANT**</u>\n\n---\n\n### **COUNSEL'S LITIGATION SCRATCHPAD & STRATEGY**\n\n#### **1. Elements of Proof Required for the Tenant (Defendant)**\nTo succeed in defending this action and prevailing on the Counterclaim, Counsel must lead evidence to establish:\n*   **Existence of Tenancy:** Provide the lease agreement, rent receipts, or mobile money (M-Pesa) transaction statements showing a landlord-tenant relationship.\n*   **Absence of Statutory Notice:** Demonstrate that the landlord did not serve the prescribed statutory form under **[Citation: Section 4 of the Landlord and Tenant Act]**. Counsel should point out that informal notices (e.g., WhatsApp messages, emails, or simple demand letters) do not satisfy the strict statutory threshold.\n*   **Uninhabitability (Breach of Section 12):** Produce photographic/video evidence of structural defects, leaking roofs, or broken drainage. Present demand letters sent to the landlord requesting repairs, and receipts of any repairs undertaken by the tenant.\n*   **Constitutional Infringement:** Document any lockouts or utility disconnections (police OB reports, letters to utility companies) to prove a violation of **[Citation: Article 40 of the Constitution of Kenya 2010]**.\n\n#### **2. Anticipated Adversarial Counter-Arguments & Defenses**\n*   **The Landlord's Defense of Rent Default:** The Plaintiff will likely argue that under **[Citation: Section 15 of the Landlord and Tenant Act]**, the tenant has an absolute obligation to pay rent on the agreed dates, and that default forfeits the right to notice.\n    *   *Counsel's Counter-Strategy:* Argue the doctrine of **Constructive Eviction**. A landlord cannot demand rent for premises they have allowed to become uninhabitable in breach of **[Citation: Section 12 of the Landlord and Tenant Act]**. Furthermore, argue that any deduction made was a lawful self-help remedy to restore basic habitability after the landlord's default.\n*   **Jurisdictional Objections:** The landlord may argue that the dispute belongs in the civil courts rather than the Rent Restriction Tribunal.\n    *   *Counsel's Counter-Strategy:* Verify the monthly rent threshold of the premises to ensure it falls within the statutory jurisdiction of the Rent Restriction Tribunal (typically residential premises with rent not exceeding KES 20,000, subject to regional variations or commercial controlled tenancies under the Landlord and Tenant (Shops, Hotels and Catering Establishments) Act, Cap 301). Ensure the pleadings are filed in the correct forum.",
+        "timestamp": "16:44",
+        "citations": [
+          {
+            "id": "emp-sec35",
+            "actName": "The Employment Act, 2007",
+            "section": "Section 35",
+            "title": "Termination of employment",
+            "text": "Where a contract of service is to be terminated, it shall be terminated as follows: (a) where the contract is for a period of less than a month, it may be terminated by either party on twenty-four hours' notice; (b) where the contract is a monthly contract, by not less than twenty-eight days' notice or payment in lieu of notice; (c) where the contract is for a fixed period or specific task, on expiry or completion."
+          },
+          {
+            "id": "emp-sec26",
+            "actName": "The Employment Act, 2007",
+            "section": "Section 26",
+            "title": "Minimum conditions of employment",
+            "text": "This Part shall constitute basic minimum conditions of employment and shall apply to all employees. Any contract of service that provides for terms that are less favorable to the employee than the minimum conditions prescribed herein shall be deemed to be modified to conform to the statutory minimum conditions."
+          },
+          {
+            "id": "const-art41",
+            "actName": "The Constitution of Kenya 2010",
+            "section": "Article 41",
+            "title": "Labour relations",
+            "text": "Every person has the right to fair labour practices. Every worker has the right to fair remuneration, to reasonable working conditions, to form, join or participate in the activities and programmes of a trade union, and to go on strike. Every employer has the right to form and join an employers' organisation, and to participate in the activities and programmes of an employers' organisation."
+          },
+          {
+            "id": "landlord-sec4",
+            "actName": "The Landlord and Tenant Act",
+            "section": "Section 4",
+            "title": "Restrictions on increasing rent and changing tenancy",
+            "text": "No landlord shall increase the rent of any premises, or alter any terms of tenancy, or evict a tenant without first serving a notice of increment or change in the prescribed statutory form, or by obtaining a corresponding consent from the tenant. Any dispute concerning rent increments or unilateral alterations shall be referred to the Rent Restriction Tribunal for adjudication."
+          },
+          {
+            "id": "landlord-sec12",
+            "actName": "The Landlord and Tenant Act",
+            "section": "Section 12",
+            "title": "Landlord obligations to maintain premises",
+            "text": "It is an implied covenant in every tenancy agreement that the landlord is responsible for keeping the premises in a good state of repair and fit for human habitation. The landlord shall undertake structural repairs, water and drainage system maintenance, and common area upkeep. If the landlord fails, the tenant may seek remedy from the Tribunal, or seek authorization to repair and deduct costs from rent."
+          },
+          {
+            "id": "landlord-sec15",
+            "actName": "The Landlord and Tenant Act",
+            "section": "Section 15",
+            "title": "Tenant obligations",
+            "text": "The tenant shall pay the rent on the dates and in the manner agreed. The tenant shall maintain the interior of the premises in a clean and tenantable condition, repair damage caused by direct negligence, and shall not assign, sublet, or part with possession of the premises without prior written consent from the landlord."
+          },
+          {
+            "id": "const-art40",
+            "actName": "The Constitution of Kenya 2010",
+            "section": "Article 40",
+            "title": "Right to property",
+            "text": "Subject to Article 65, every person has the right, either individually or in association with others, to acquire and own property of any description and in any part of Kenya. The State shall not deprive a person of property of any description, or of any interest in or right over property of any description, unless the deprivation is for a public purpose and is carried out in accordance with this Constitution, prompt payment of full and just compensation is made, and any person who has an interest in, or right over, that property has a right of access to a court of law."
+          }
+        ]
+      }
+    ],
+    "createdAt": "2026-07-18T13:43:38.032Z",
+    "updatedAt": "2026-07-18T13:44:03.891Z"
+  },
+  {
+    "id": "session-414liaowt",
+    "userId": "user-f05oubdwk",
+    "title": "Can an employer discriminate or fir...",
+    "role": "citizen",
+    "messages": [
+      {
+        "id": "welcome-msg-tsf3wiwjm",
+        "role": "assistant",
+        "content": "Habari gani Monie! Welcome to **Jua Sheria Citizen Portal**. \n\nI am your AI legal assistant designed to translate complex Kenyan laws into plain, simple English and Swahili. \n\n*Disclaimer: Jua Sheria is an information-only tool. I provide clear statutory guidelines and legal information to raise your awareness, but I do NOT offer official attorney-client legal advice. If you face active litigation, please seek a certified advocate or visit a Huduma Centre.*\n\nSelect one of the common citizen questions below, or type your situation in plain words.",
+        "timestamp": "16:40"
+      },
+      {
+        "id": "msg-ar411iov2",
+        "role": "user",
+        "content": "Can an employer discriminate or fire someone on grounds of pregnancy or health status under Kenyan Constitution Article 27?",
+        "timestamp": "16:40"
+      },
+      {
+        "id": "msg-uqkl1llok",
+        "role": "assistant",
+        "content": "Sema rafiki! Welcome. Let's talk about this very important issue. \n\nKwanza kabisa, a quick reminder: *I am here to give you friendly, clear legal information to help you know your rights as a Kenyan citizen, but this is not official attorney-client legal advice. Kama mambo ni mazito, it is always best to consult a registered advocate or visit a Huduma Centre.*\n\nTo answer your question directly: **No, absolutely not!** An employer cannot discriminate against you or fire you because you are pregnant or because of your health status. In Kenya, the law protects you fully.\n\nThink of the law like a big, strong umbrella (*mwavuli*). When the rain of unfair treatment or discrimination starts beating you at work because you are expecting a baby or feeling unwell, this legal umbrella is there to shield you.\n\nHere is how the law protects you, step-by-step:\n\n### 1. The Supreme Law Shield (The Constitution)\n*   **No Discrimination Allowed:** Under the supreme law of the land, **`[Citation: Article 27 of the Constitution of Kenya 2010]`**, every single person is equal before the law. The Constitution states very clearly that neither the State nor any person (including your boss) can discriminate against you directly or indirectly on grounds of **pregnancy** or **health status**. \n*   **The Constitution is King:** Remember, any contract or workplace rule that goes against this is completely powerless and void, as supported by **`[Citation: Article 2 of the Constitution of Kenya 2010]`**.\n\n### 2. The Workplace Rulebook (The Employment Act)\n*   **Strict Protection for Workers:** To make sure employers don't play games, **`[Citation: Section 5 of the Employment Act, 2007]`** specifically commands employers to promote equal opportunities and eliminate discrimination. It strictly forbids them from discriminating against you (or even someone applying for a job) because of your **pregnancy**, **mental status**, or **HIV status**.\n*   **Right to Fair Treatment:** You also have a constitutional right to fair labour practices and reasonable working conditions under **`[Citation: Article 41 of the Constitution of Kenya 2010]`**. Firing someone because they are pregnant or sick is a direct violation of this right.\n\n---\n\n### 3. What should you do if this happens to you? (Hatua za Kuchukua)\n\nIf you feel your employer is mistreating you or threatening to fire you because of pregnancy or health:\n\n*   **Step 1: Keep your paper trail safe.** Save every email, WhatsApp message, or letter where your employer mentions your pregnancy or health. Write down dates and times of any verbal conversations.\n*   **Step 2: Know your contract's worth.** Even if your contract says they can fire you easily, **`[Citation: Section 26 of the Employment Act, 2007]`** says that if a contract gives you fewer rights than the law, the law wins! The contract must automatically change to match the minimum legal protections.\n*   **Step 3: Seek help.** You can report the matter to a Labour Officer at the nearest Ministry of Labour office, talk to your trade union representative if you are a member, or visit a Huduma Centre for guidance on how to file a complaint.\n\nUsiogope, rafiki! The law is on your side to ensure you are treated with dignity and fairness. Do you have any other questions about your rights at work?",
+        "timestamp": "16:41",
+        "citations": [
+          {
+            "id": "const-art27",
+            "actName": "The Constitution of Kenya 2010",
+            "section": "Article 27",
+            "title": "Equality and freedom from discrimination",
+            "text": "Every person is equal before the law and has the right to equal protection and equal benefit of the law. Equality includes the full and equal enjoyment of all rights and fundamental freedoms. Women and men have the right to equal treatment, including the right to equal opportunities in political, economic, cultural and social spheres. The State shall not discriminate directly or indirectly against any person on any ground, including race, sex, pregnancy, marital status, health status, ethnic or social origin, colour, age, disability, religion, conscience, belief, culture, dress, language or birth."
+          },
+          {
+            "id": "emp-sec5",
+            "actName": "The Employment Act, 2007",
+            "section": "Section 5",
+            "title": "Equality and discrimination",
+            "text": "An employer shall promote equal opportunity in employment and strive to eliminate discrimination in any employment policy or practice. An employer shall register and submit to the Director of Employment a report regarding discrimination patterns. No employer shall discriminate directly or indirectly against an employee or prospective employee on grounds of race, color, sex, language, religion, political or other opinion, nationality, ethnic or social origin, disability, pregnancy, mental status or HIV status."
+          },
+          {
+            "id": "landlord-sec4",
+            "actName": "The Landlord and Tenant Act",
+            "section": "Section 4",
+            "title": "Restrictions on increasing rent and changing tenancy",
+            "text": "No landlord shall increase the rent of any premises, or alter any terms of tenancy, or evict a tenant without first serving a notice of increment or change in the prescribed statutory form, or by obtaining a corresponding consent from the tenant. Any dispute concerning rent increments or unilateral alterations shall be referred to the Rent Restriction Tribunal for adjudication."
+          },
+          {
+            "id": "emp-sec35",
+            "actName": "The Employment Act, 2007",
+            "section": "Section 35",
+            "title": "Termination of employment",
+            "text": "Where a contract of service is to be terminated, it shall be terminated as follows: (a) where the contract is for a period of less than a month, it may be terminated by either party on twenty-four hours' notice; (b) where the contract is a monthly contract, by not less than twenty-eight days' notice or payment in lieu of notice; (c) where the contract is for a fixed period or specific task, on expiry or completion."
+          },
+          {
+            "id": "emp-sec26",
+            "actName": "The Employment Act, 2007",
+            "section": "Section 26",
+            "title": "Minimum conditions of employment",
+            "text": "This Part shall constitute basic minimum conditions of employment and shall apply to all employees. Any contract of service that provides for terms that are less favorable to the employee than the minimum conditions prescribed herein shall be deemed to be modified to conform to the statutory minimum conditions."
+          },
+          {
+            "id": "const-art41",
+            "actName": "The Constitution of Kenya 2010",
+            "section": "Article 41",
+            "title": "Labour relations",
+            "text": "Every person has the right to fair labour practices. Every worker has the right to fair remuneration, to reasonable working conditions, to form, join or participate in the activities and programmes of a trade union, and to go on strike. Every employer has the right to form and join an employers' organisation, and to participate in the activities and programmes of an employers' organisation."
+          },
+          {
+            "id": "const-art43",
+            "actName": "The Constitution of Kenya 2010",
+            "section": "Article 43",
+            "title": "Economic and social rights",
+            "text": "Every person has the right to the highest attainable standard of health, which includes the right to health care services, including reproductive health care; to accessible and adequate housing, and to reasonable standards of sanitation; to be free from hunger, and to have adequate food of acceptable quality; to clean and safe water in adequate quantities; to social security; and to education. A person shall not be denied emergency medical treatment."
+          },
+          {
+            "id": "const-art2",
+            "actName": "The Constitution of Kenya 2010",
+            "section": "Article 2",
+            "title": "Supremacy of the Constitution",
+            "text": "This Constitution is the supreme law of the Republic and binds all persons and all State organs at both levels of government. No person may claim or exercise State authority except as authorised under this Constitution. Any law, including customary law, that is inconsistent with this Constitution is void to the extent of the inconsistency, and any act or omission in contravention of this Constitution is invalid."
+          }
+        ]
+      },
+      {
+        "id": "msg-6568er60p",
+        "role": "user",
+        "content": "what is law ",
+        "timestamp": "22:01"
+      },
+      {
+        "id": "msg-f1ljecmva",
+        "role": "assistant",
+        "content": "Sema tena rafiki! Hilo ni swali zuri sana na la msingi. Let’s break down what \"law\" (*sheria*) actually is in a way that is super easy to understand.\n\n*Kumbuka: I am here to share friendly legal information to help you understand how things work, but this is not official attorney-client legal advice.*\n\n---\n\n### Sheria ni Nini? (What is Law?)\n\nThink of law like the **rules of a football match (*mchezo wa kandanda*)**. \nWithout rules, players would tackle each other dangerously, use their hands to score, and the game would end in total chaos (*vurugu tupu*). \n\nIn the same way, **law** is a set of rules made by a country to guide how we live, work, and relate to one another. It makes sure there is order, fairness, and safety for everyone.\n\nHere is how law works in Kenya, broken down into simple points:\n\n*   **It Sets the Rules of the Game:** Law tells us what we can do (like starting a business or getting married) and what we cannot do (like stealing or hurting others).\n*   **It Protects Your Rights:** Law acts as your shield. For example, it ensures that you cannot be discriminated against because of who you are, as promised in **`[Citation: Article 27 of the Constitution of Kenya 2010]`**.\n*   **It Resolves Disputes:** When people disagree (e.g., a landlord and a tenant, or an employer and an employee), the law provides a fair way to settle the argument without fighting.\n\n---\n\n### The \"Super Boss\" of All Laws in Kenya\n\nIn Kenya, we have many different types of laws (laws about driving, laws about taxes, laws about land). But there is one law that is the ultimate boss: **The Constitution of Kenya**.\n\n*   **The Supreme Law:** Under **`[Citation: Article 2 of the Constitution of Kenya 2010]`**, the Constitution is the supreme law of the Republic. This means it binds every single person, including the President, the police, and ordinary citizens. \n*   **Nothing Can Oppose It:** If parliament passes any other law, or if there is an old customary rule that goes against the Constitution, that other law is considered dead on arrival (void) to the extent of that clash, as stated in **`[Citation: Article 2 of the Constitution of Kenya 2010]`**.\n\n### Where can you find our laws?\nIf you ever want to read the official laws of Kenya, you can find them online at the **Kenya Law Reports website (kenyalaw.org)**, or you can visit a **Huduma Centre** where they can guide you on specific government regulations and acts of Parliament.\n\nJe, kuna sheria yoyote maalum ungependa tuongelee leo? (Is there a specific law you'd like us to talk about today?)",
+        "timestamp": "22:01",
+        "citations": [
+          {
+            "id": "const-art2",
+            "actName": "The Constitution of Kenya 2010",
+            "section": "Article 2",
+            "title": "Supremacy of the Constitution",
+            "text": "This Constitution is the supreme law of the Republic and binds all persons and all State organs at both levels of government. No person may claim or exercise State authority except as authorised under this Constitution. Any law, including customary law, that is inconsistent with this Constitution is void to the extent of the inconsistency, and any act or omission in contravention of this Constitution is invalid."
+          },
+          {
+            "id": "const-art27",
+            "actName": "The Constitution of Kenya 2010",
+            "section": "Article 27",
+            "title": "Equality and freedom from discrimination",
+            "text": "Every person is equal before the law and has the right to equal protection and equal benefit of the law. Equality includes the full and equal enjoyment of all rights and fundamental freedoms. Women and men have the right to equal treatment, including the right to equal opportunities in political, economic, cultural and social spheres. The State shall not discriminate directly or indirectly against any person on any ground, including race, sex, pregnancy, marital status, health status, ethnic or social origin, colour, age, disability, religion, conscience, belief, culture, dress, language or birth."
+          }
+        ]
+      }
+    ],
+    "createdAt": "2026-07-18T13:40:31.476Z",
+    "updatedAt": "2026-07-18T19:01:50.623Z"
+  },
+  {
     "id": "session-7cgi2b7zq",
     "userId": "user-t4cs2a0q5",
     "title": "Draft a comprehensive Memorandum of...",

@@ -828,6 +828,83 @@ ${groundingContext}
   }
 });
 
+// AGGRESSIVE ARGUMENT CRITIQUE ENDPOINT (for lawyers)
+app.post("/api/critique", authenticateToken, async (req: any, res) => {
+  const { argument } = req.body;
+  const userRole: UserRole = req.user.role;
+
+  if (!argument || typeof argument !== "string" || argument.trim().length === 0) {
+    return res.status(400).json({ error: "Please provide a legal argument to critique." });
+  }
+
+  // Only lawyers can use the critique feature
+  if (userRole !== "lawyer") {
+    return res.status(403).json({ error: "Critique feature is reserved for advocates." });
+  }
+
+  // Look up related laws for context
+  const citations = KenyanLegalFetchService.lookupLaws(argument);
+
+  const groundingContext = citations
+    .map(
+      (c) =>
+        `--- CITATION RECORD: ${c.actName} (${c.section}) ---\nTitle: ${c.title}\nVerbatim Content: ${c.text}`
+    )
+    .join("\n\n");
+
+  const critiqueSystemInstruction = `
+You are **Jua Sheria - Aggressive Critique Engine** for Kenyan Advocates. Your role is to RUTHLESSLY critique legal arguments, pointing out:
+
+1. **CRITICAL GAPS IN EVIDENCE**: What facts are missing? What assumptions are unfounded? What documentation should have been provided but is absent?
+2. **WEAK LEGAL POSITIONS**: Which statutory provisions contradict or undermine the argument? Are there case precedents that work against this position?
+3. **ADVERSARIAL COUNTER-ARGUMENTS**: How will opposing counsel tear this apart in a Kenyan court? What procedural defects exist? What standing issues might arise?
+4. **EVIDENTIARY WEAKNESSES**: Which claims lack proper legal foundation under Kenyan evidence law? What chain-of-custody or authentication problems exist?
+5. **SENTENCING OR REMEDIAL GAPS**: If applicable, what remedies are being sought that may be unavailable? What statutory limits apply?
+
+Your critique should be **AGGRESSIVE, SPECIFIC, AND PRACTICAL**—as if you are a senior opposing counsel preparing to demolish this argument in court.
+
+Finally, suggest ONE CONCRETE REVISION the advocate should make immediately.
+
+VERIFIED KENYAN LEGAL GROUNDING CONTEXT (use this to ground your critique):
+${groundingContext}
+`;
+
+  // Start Event Stream response
+  res.setHeader("Content-Type", "text/event-stream");
+  res.setHeader("Cache-Control", "no-cache");
+  res.setHeader("Connection", "keep-alive");
+
+  try {
+    const critiqueStream = await ai.models.generateContentStream({
+      model: "gemini-3.5-flash",
+      contents: {
+        parts: [
+          {
+            text: `ARGUMENT TO CRITIQUE:\n\n${argument}`,
+          },
+        ],
+      },
+      config: {
+        systemInstruction: critiqueSystemInstruction,
+        temperature: 0.7, // Slightly higher temperature to encourage creative adversarial thinking
+      },
+    });
+
+    for await (const chunk of critiqueStream) {
+      if (chunk.text) {
+        res.write(`event: chunk\ndata: ${JSON.stringify({ text: chunk.text })}\n\n`);
+      }
+    }
+
+    res.write("event: end\ndata: {}\n\n");
+    res.end();
+  } catch (error: any) {
+    console.error("Critique stream error:", error);
+    res.write(`event: error\ndata: ${JSON.stringify({ error: error.message || "Critique engine failed" })}\n\n`);
+    res.end();
+  }
+});
+
 // -------------------------------------------------------------
 // VITE AND STATIC ASSET SERVING MIDDLEWARE
 // -------------------------------------------------------------

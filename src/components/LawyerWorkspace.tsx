@@ -26,7 +26,9 @@ import {
   FileUp,
   Search,
   MessageSquare,
-  History
+  History,
+  Menu,
+  X
 } from "lucide-react";
 import { User, Message, LawCitation, ScratchpadDocument, ChatSession } from "../types";
 import FormattedMessage from "./FormattedMessage.tsx";
@@ -42,6 +44,7 @@ export default function LawyerWorkspace({ user, token, onLogout }: LawyerWorkspa
   // Chat sessions & tab state
   const [sessions, setSessions] = useState<ChatSession[]>([]);
   const [activeSessionId, setActiveSessionId] = useState<string>("");
+  const [sidebarOpen, setSidebarOpen] = useState(false);
   const [leftTab, setLeftTab] = useState<"history" | "statutes">("history");
   const [messages, setMessages] = useState<Message[]>([]);
   const [chatInput, setChatInput] = useState("");
@@ -643,36 +646,45 @@ On this split workspace, you can:
       <div className="h-1.5 w-full flex flex-shrink-0">
         <div className="bg-black flex-1" />
         <div className="bg-red-600 flex-1 border-y-[0.5px] border-white" />
-        <div className="bg-emerald-600 flex-1" />
+        <div className="bg-indigo-600 flex-1" />
       </div>
 
       {/* Corporate Professional Header */}
-      <header className="bg-slate-950 border-b border-slate-800 px-6 py-3.5 sticky top-0 z-40 flex items-center justify-between">
+      <header className="bg-slate-950 border-b border-indigo-800 px-6 py-3.5 sticky top-0 z-40 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="p-2.5 bg-emerald-950 border border-emerald-800 text-emerald-300 rounded-xl">
+          {/* Sidebar Toggle Button */}
+          <button
+            onClick={() => setSidebarOpen(!sidebarOpen)}
+            className="p-2 hover:bg-indigo-900/40 rounded-lg text-indigo-400 transition-colors"
+            title={sidebarOpen ? "Close sidebar" : "Open sidebar"}
+          >
+            {sidebarOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+          </button>
+
+          <div className="p-2.5 bg-gradient-to-br from-indigo-600 to-purple-600 text-white rounded-xl border border-indigo-500/30 shadow-lg">
             <Scale className="w-5 h-5" />
           </div>
           <div>
-            <span className="font-extrabold text-xl tracking-tight flex items-center gap-2">
-              Jua <span className="text-emerald-400">Sheria</span>
-              <span className="text-[10px] font-black bg-emerald-950 text-emerald-300 border border-emerald-800 px-2 py-0.5 rounded-sm uppercase tracking-widest">
-                Counsel Workspace
+            <span className="font-extrabold text-xl tracking-tight flex items-center gap-2 bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 via-purple-400 to-blue-400">
+              Jua <span className="text-indigo-400">Sheria</span>
+              <span className="text-[10px] font-black bg-indigo-950 text-indigo-300 border border-indigo-800 px-2 py-0.5 rounded-sm uppercase tracking-widest">
+                Advocate Workspace
               </span>
             </span>
             <span className="block text-[9px] text-slate-400 font-bold uppercase tracking-wider">
-              Litigation Strategy & statutory brainstorming
+              Premium Litigation Intelligence
             </span>
           </div>
         </div>
 
         <div className="flex items-center gap-4">
           <div className="hidden lg:flex items-center gap-2 px-3 py-1.5 bg-slate-900 border border-slate-800 rounded-lg text-xs font-semibold text-slate-400">
-            <BookOpen className="w-4 h-4 text-emerald-400" />
+            <BookOpen className="w-4 h-4 text-indigo-400" />
             <span>Advocate Database Active</span>
           </div>
 
           <div className="flex items-center gap-2 text-xs bg-slate-900 border border-slate-800 px-3 py-1.5 rounded-lg text-slate-300">
-            <div className="w-2 h-2 bg-emerald-500 rounded-full animate-pulse" />
+            <div className="w-2 h-2 bg-indigo-500 rounded-full animate-pulse" />
             <span className="font-bold">{user.fullName}</span>
           </div>
 
@@ -690,15 +702,15 @@ On this split workspace, you can:
       {/* Primary Split Workspace */}
       <div className="flex-1 flex flex-col md:grid md:grid-cols-12 overflow-hidden h-[calc(100vh-4.5rem)]">
         
-        {/* LEFTMOST COLUMN: Tabbed Sidebar (3/12 columns) */}
-        <aside className="md:col-span-3 border-b md:border-b-0 md:border-r border-slate-800 flex flex-col overflow-hidden bg-slate-950 h-[30vh] md:h-full">
+        {/* LEFTMOST COLUMN: Collapsible Tabbed Sidebar */}
+        <aside className={`${sidebarOpen ? "md:col-span-3 w-full md:w-auto" : "hidden md:hidden w-0"} border-b md:border-b-0 md:border-r border-indigo-800 flex flex-col overflow-hidden bg-slate-950 transition-all duration-300 h-[30vh] md:h-full`}>
           {/* Tabs header */}
           <div className="flex border-b border-slate-800 bg-slate-900/40">
             <button
               onClick={() => setLeftTab("history")}
               className={`flex-1 py-3 text-xs font-bold transition-all border-b-2 flex items-center justify-center gap-1.5 cursor-pointer ${
                 leftTab === "history"
-                  ? "border-emerald-500 text-emerald-400 bg-slate-900/60"
+                  ? "border-indigo-500 text-indigo-400 bg-slate-900/60"
                   : "border-transparent text-slate-400 hover:text-slate-200"
               }`}
             >
@@ -709,7 +721,7 @@ On this split workspace, you can:
               onClick={() => setLeftTab("statutes")}
               className={`flex-1 py-3 text-xs font-bold transition-all border-b-2 flex items-center justify-center gap-1.5 cursor-pointer ${
                 leftTab === "statutes"
-                  ? "border-emerald-500 text-emerald-400 bg-slate-900/60"
+                  ? "border-indigo-500 text-indigo-400 bg-slate-900/60"
                   : "border-transparent text-slate-400 hover:text-slate-200"
               }`}
             >
@@ -725,7 +737,7 @@ On this split workspace, you can:
                 {/* New chat button */}
                 <button
                   onClick={() => initializeNewSession()}
-                  className="w-full py-2 px-3 bg-emerald-950/40 hover:bg-emerald-900/30 text-emerald-300 border border-emerald-800/60 hover:border-emerald-700 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-all cursor-pointer mb-3.5"
+                  className="w-full py-2 px-3 bg-indigo-950/40 hover:bg-indigo-900/30 text-indigo-300 border border-indigo-800/60 hover:border-indigo-700 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-all cursor-pointer mb-3.5"
                 >
                   <Plus className="w-4 h-4" />
                   <span>Start New Chat</span>
@@ -748,12 +760,12 @@ On this split workspace, you can:
                         onClick={() => selectSession(s.id)}
                         className={`group relative p-2.5 rounded-xl border text-left cursor-pointer transition-all flex items-center justify-between gap-2 ${
                           activeSessionId === s.id
-                            ? "bg-emerald-950/20 border-emerald-800/80 ring-1 ring-emerald-800/40 text-emerald-300"
-                            : "bg-slate-900/20 border-slate-850 hover:bg-slate-900/50 hover:border-slate-800 text-slate-300"
+                            ? "bg-indigo-950/20 border-indigo-800/80 ring-1 ring-indigo-800/40 text-indigo-300"
+                            : "bg-slate-900/20 border-slate-850 hover:bg-gradient-to-br from-slate-950 via-indigo-950 hover:border-slate-800 text-slate-300"
                         }`}
                       >
                         <div className="flex items-center gap-2 overflow-hidden flex-1">
-                          <MessageSquare className={`w-3.5 h-3.5 flex-shrink-0 ${activeSessionId === s.id ? "text-emerald-400" : "text-slate-500"}`} />
+                          <MessageSquare className={`w-3.5 h-3.5 flex-shrink-0 ${activeSessionId === s.id ? "text-indigo-400" : "text-slate-500"}`} />
                           <span className="text-xs truncate font-medium">{s.title}</span>
                         </div>
                         <button
@@ -783,7 +795,7 @@ On this split workspace, you can:
                     value={statutesSearch}
                     onChange={(e) => setStatutesSearch(e.target.value)}
                     placeholder="Search Kenyan statutes..."
-                    className="w-full pl-9 pr-3 py-2 bg-slate-900 border border-slate-800 rounded-xl text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:ring-1 focus:ring-emerald-500 focus:border-emerald-500 transition-all"
+                    className="w-full pl-9 pr-3 py-2 bg-slate-900 border border-slate-800 rounded-xl text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 transition-all"
                   />
                 </div>
 
@@ -835,7 +847,7 @@ On this split workspace, you can:
                             setSaveStatus(`Pasted citation references into chat input!`);
                             setTimeout(() => setSaveStatus(null), 3000);
                           }}
-                          className="w-full py-1 px-2 bg-emerald-950/60 hover:bg-emerald-900/60 border border-emerald-900 hover:border-emerald-700 text-emerald-300 rounded-lg text-[10px] font-bold flex items-center justify-center gap-1.5 transition-all cursor-pointer"
+                          className="w-full py-1 px-2 bg-indigo-950/60 hover:bg-indigo-900/60 border border-indigo-900 hover:border-indigo-700 text-indigo-300 rounded-lg text-[10px] font-bold flex items-center justify-center gap-1.5 transition-all cursor-pointer"
                         >
                           <Plus className="w-3.5 h-3.5" />
                           <span>Paste Citation</span>
@@ -853,9 +865,9 @@ On this split workspace, you can:
         <section className="md:col-span-5 border-b md:border-b-0 md:border-r border-slate-800 flex flex-col justify-between overflow-hidden bg-slate-950">
           
           {/* Chat Info Header */}
-          <div className="bg-slate-900/50 p-3 px-4 border-b border-slate-800 flex items-center justify-between text-xs">
+          <div className="bg-gradient-to-br from-slate-950 via-indigo-950 p-3 px-4 border-b border-slate-800 flex items-center justify-between text-xs">
             <span className="font-bold text-slate-400 flex items-center gap-1.5">
-              <Scale className="w-4 h-4 text-emerald-400" />
+              <Scale className="w-4 h-4 text-indigo-400" />
               LITIGATION BRAINSTORMING PANEL
             </span>
             <span className="text-[10px] text-slate-500">Low-latency statutory engine</span>
@@ -873,7 +885,7 @@ On this split workspace, you can:
                 <div className={`w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 border ${
                   m.role === "user" 
                     ? "bg-slate-800 text-slate-200 border-slate-700" 
-                    : "bg-emerald-950 border-emerald-800 text-emerald-400"
+                    : "bg-indigo-950 border-indigo-800 text-indigo-400"
                 }`}>
                   <Scale className="w-4 h-4" />
                 </div>
@@ -882,7 +894,7 @@ On this split workspace, you can:
                 <div className="space-y-1">
                   <div className={`p-4 rounded-xl border ${
                     m.role === "user"
-                      ? "bg-emerald-950 border-emerald-800 text-slate-100 rounded-tr-none"
+                      ? "bg-indigo-950 border-indigo-800 text-slate-100 rounded-tr-none"
                       : "bg-slate-900 border-slate-800 text-slate-200 rounded-tl-none"
                   }`}>
                     {m.role === "user" ? (
@@ -897,7 +909,7 @@ On this split workspace, you can:
                         <button
                           id={`btn-append-to-scratchpad-${m.id}`}
                           onClick={() => appendToScratchpad(m.content)}
-                          className="px-2.5 py-1 text-[11px] bg-slate-950 border border-slate-800 text-emerald-400 font-bold rounded-md hover:bg-emerald-950 hover:border-emerald-700 transition-all flex items-center gap-1 cursor-pointer"
+                          className="px-2.5 py-1 text-[11px] bg-slate-950 border border-slate-800 text-indigo-400 font-bold rounded-md hover:bg-indigo-950 hover:border-indigo-700 transition-all flex items-center gap-1 cursor-pointer"
                         >
                           <Plus className="w-3.5 h-3.5" />
                           Append to Draft
@@ -909,7 +921,7 @@ On this split workspace, you can:
                         >
                           {copiedMessageId === m.id ? (
                             <>
-                              <Check className="w-3.5 h-3.5 text-emerald-400" />
+                              <Check className="w-3.5 h-3.5 text-indigo-400" />
                               Copied!
                             </>
                           ) : (
@@ -932,13 +944,13 @@ On this split workspace, you can:
             {/* SSE Real-time Stream */}
             {currentStream && (
               <div id="lawyer-streaming-bubble" className="flex gap-3 max-w-[90%] text-left mr-auto">
-                <div className="w-8 h-8 rounded-full bg-emerald-950 border border-emerald-800 text-emerald-400 flex items-center justify-center flex-shrink-0 animate-pulse">
+                <div className="w-8 h-8 rounded-full bg-indigo-950 border border-indigo-800 text-indigo-400 flex items-center justify-center flex-shrink-0 animate-pulse">
                   <Scale className="w-4 h-4" />
                 </div>
                 <div className="space-y-1">
-                  <div className="p-4 rounded-xl bg-slate-900 border border-emerald-800/40 text-slate-200 rounded-tl-none">
+                  <div className="p-4 rounded-xl bg-slate-900 border border-indigo-800/40 text-slate-200 rounded-tl-none">
                     <FormattedMessage content={currentStream} citations={activeCitations} isDark={true} />
-                    <span className="inline-block w-2.5 h-4 bg-emerald-400 animate-pulse ml-1 align-middle" />
+                    <span className="inline-block w-2.5 h-4 bg-indigo-400 animate-pulse ml-1 align-middle" />
                   </div>
                   <span className="block text-[9px] text-slate-500 font-bold">
                     Drafting argument...
@@ -949,13 +961,13 @@ On this split workspace, you can:
 
             {loading && !currentStream && (
               <div id="lawyer-generating-loader" className="flex gap-3 max-w-[90%] text-left mr-auto">
-                <div className="w-8 h-8 rounded-full bg-emerald-950 border border-emerald-800 text-emerald-400 flex items-center justify-center flex-shrink-0">
+                <div className="w-8 h-8 rounded-full bg-indigo-950 border border-indigo-800 text-indigo-400 flex items-center justify-center flex-shrink-0">
                   <Scale className="w-4 h-4 animate-spin" />
                 </div>
                 <div className="p-4 rounded-xl bg-slate-900 border border-slate-800 rounded-tl-none text-xs text-slate-400 flex items-center gap-2">
-                  <div className="w-1.5 h-1.5 bg-emerald-400 rounded-full animate-bounce delay-75" />
-                  <div className="w-1.5 h-1.5 bg-emerald-400 rounded-full animate-bounce delay-150" />
-                  <div className="w-1.5 h-1.5 bg-emerald-400 rounded-full animate-bounce delay-300" />
+                  <div className="w-1.5 h-1.5 bg-indigo-400 rounded-full animate-bounce delay-75" />
+                  <div className="w-1.5 h-1.5 bg-indigo-400 rounded-full animate-bounce delay-150" />
+                  <div className="w-1.5 h-1.5 bg-indigo-400 rounded-full animate-bounce delay-300" />
                   <span>Counsel Workspace is linking statutory database records...</span>
                 </div>
               </div>
@@ -978,7 +990,7 @@ On this split workspace, you can:
           {messages.length <= 2 && !loading && (
             <div id="lawyer-suggestions-shelf" className="px-4 py-3 bg-slate-900/40 border-t border-slate-850 text-left">
               <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider flex items-center gap-1.5 mb-2">
-                <Sparkles className="w-3.5 h-3.5 text-emerald-400" /> Select strategy template to initiate
+                <Sparkles className="w-3.5 h-3.5 text-indigo-400" /> Select strategy template to initiate
               </span>
               <div className="grid grid-cols-2 gap-2">
                 {lawyerSuggestions.map((s, idx) => (
@@ -986,13 +998,13 @@ On this split workspace, you can:
                     key={idx}
                     id={`lawyer-suggestion-btn-${idx}`}
                     onClick={() => handleSendChat(s.query)}
-                    className="p-2.5 bg-slate-950 hover:bg-slate-900 border border-slate-800 hover:border-emerald-700/80 rounded-xl text-left transition-all cursor-pointer space-y-0.5 group"
+                    className="p-2.5 bg-slate-950 hover:bg-slate-900 border border-slate-800 hover:border-indigo-700/80 rounded-xl text-left transition-all cursor-pointer space-y-0.5 group"
                   >
                     <div className="flex items-center justify-between">
-                      <span className="block text-xs font-bold text-emerald-400 group-hover:text-emerald-300">
+                      <span className="block text-xs font-bold text-indigo-400 group-hover:text-indigo-300">
                         {s.title}
                       </span>
-                      <ChevronRight className="w-3 h-3 text-slate-600 group-hover:text-emerald-400 transition-colors" />
+                      <ChevronRight className="w-3 h-3 text-slate-600 group-hover:text-indigo-400 transition-colors" />
                     </div>
                     <span className="block text-[10px] text-slate-500 truncate leading-tight">
                       {s.query}
@@ -1021,7 +1033,7 @@ On this split workspace, you can:
                 className={`p-2.5 rounded-xl border transition-all cursor-pointer flex items-center justify-center ${
                   isListening
                     ? "bg-red-950/80 text-red-400 border-red-900 animate-pulse"
-                    : "text-slate-400 hover:text-emerald-400 hover:bg-slate-900 border-slate-800"
+                    : "text-slate-400 hover:text-indigo-400 hover:bg-slate-900 border-slate-800"
                 }`}
               >
                 {isListening ? <MicOff className="w-4 h-4" /> : <Mic className="w-4 h-4" />}
@@ -1034,7 +1046,7 @@ On this split workspace, you can:
                 className={`p-2.5 border rounded-xl transition-colors cursor-pointer flex items-center justify-center ${
                   isFileParsing
                     ? "bg-amber-950/80 text-amber-400 border-amber-900 animate-pulse"
-                    : "text-slate-400 hover:text-emerald-400 hover:bg-slate-900 border-slate-800"
+                    : "text-slate-400 hover:text-indigo-400 hover:bg-slate-900 border-slate-800"
                 }`}
               >
                 <FileUp className="w-4 h-4" />
@@ -1055,7 +1067,7 @@ On this split workspace, you can:
                 onClick={handleExportChat}
                 title="Export entire chat transcript"
                 disabled={messages.length <= 1 || isFileParsing}
-                className="p-2.5 text-slate-400 hover:text-emerald-400 hover:bg-slate-900 border border-slate-800 rounded-xl transition-colors cursor-pointer disabled:opacity-40 disabled:hover:bg-transparent"
+                className="p-2.5 text-slate-400 hover:text-indigo-400 hover:bg-slate-900 border border-slate-800 rounded-xl transition-colors cursor-pointer disabled:opacity-40 disabled:hover:bg-transparent"
               >
                 <Download className="w-4 h-4" />
               </button>
@@ -1073,13 +1085,13 @@ On this split workspace, you can:
                       : "Enter query (e.g. elements of Section 29 maternity leave claim, tenant defenses...)"
                 }
                 disabled={loading || isFileParsing}
-                className="flex-1 px-4 py-2.5 text-sm bg-slate-900 border border-slate-800 focus:bg-slate-950 text-slate-150 rounded-xl focus:ring-2 focus:ring-emerald-500/10 focus:border-emerald-600 outline-none transition-all disabled:opacity-50"
+                className="flex-1 px-4 py-2.5 text-sm bg-slate-900 border border-slate-800 focus:bg-slate-950 text-slate-150 rounded-xl focus:ring-2 focus:ring-indigo-500/10 focus:border-indigo-600 outline-none transition-all disabled:opacity-50"
               />
               <button
                 id="lawyer-send-message-btn"
                 type="submit"
                 disabled={loading || isFileParsing || !chatInput.trim()}
-                className="p-2.5 bg-emerald-900 hover:bg-emerald-850 disabled:opacity-50 text-white rounded-xl shadow-md transition-all cursor-pointer flex-shrink-0"
+                className="p-2.5 bg-indigo-900 hover:bg-indigo-850 disabled:opacity-50 text-white rounded-xl shadow-md transition-all cursor-pointer flex-shrink-0"
               >
                 <Send className="w-4 h-4" />
               </button>
@@ -1094,7 +1106,7 @@ On this split workspace, you can:
           {/* Scratchpad toolbar */}
           <div className="p-3.5 bg-slate-950 border-b border-slate-800 flex flex-wrap items-center justify-between gap-3 text-xs">
             <div className="flex items-center gap-2">
-              <FileText className="w-4 h-4 text-emerald-400" />
+              <FileText className="w-4 h-4 text-indigo-400" />
               <span className="font-extrabold uppercase tracking-wider text-slate-300">Pleadings Scratchpad</span>
             </div>
 
@@ -1134,7 +1146,7 @@ On this split workspace, you can:
               <button
                 id="btn-scratchpad-save"
                 onClick={handleSaveDocument}
-                className="px-3 py-1.5 bg-emerald-800 hover:bg-emerald-700 text-white font-bold rounded-lg flex items-center gap-1.5 transition-colors cursor-pointer"
+                className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-white font-bold rounded-lg flex items-center gap-1.5 transition-colors cursor-pointer"
               >
                 <Save className="w-3.5 h-3.5" />
                 <span>Save Note</span>
@@ -1169,7 +1181,7 @@ On this split workspace, you can:
                       }}
                       className={`p-2.5 rounded-xl border text-left cursor-pointer transition-all ${
                         activeDoc.id === d.id
-                          ? "bg-emerald-950/40 border-emerald-800/80 ring-1 ring-emerald-800"
+                          ? "bg-indigo-950/40 border-indigo-800/80 ring-1 ring-indigo-800"
                           : "bg-slate-950/30 border-slate-850 hover:bg-slate-900 hover:border-slate-800"
                       }`}
                     >
@@ -1202,14 +1214,14 @@ On this split workspace, you can:
               {/* Document Metadata editing controls */}
               <div className="p-3 bg-slate-950/30 border-b border-slate-800/60 grid gap-2.5">
                 <div className="flex items-center gap-2">
-                  <Edit3 className="w-4 h-4 text-emerald-400" />
+                  <Edit3 className="w-4 h-4 text-indigo-400" />
                   <input
                     id="scratchpad-title-input"
                     type="text"
                     value={activeDoc.title}
                     onChange={(e) => setActiveDoc((prev) => ({ ...prev, title: e.target.value }))}
                     placeholder="Enter scratchpad title... (e.g. Defense John Kamau)"
-                    className="flex-1 bg-transparent border-b border-transparent hover:border-slate-800 focus:border-emerald-600 outline-none text-sm font-bold text-white transition-all py-0.5"
+                    className="flex-1 bg-transparent border-b border-transparent hover:border-slate-800 focus:border-indigo-600 outline-none text-sm font-bold text-white transition-all py-0.5"
                   />
                 </div>
               </div>
@@ -1221,7 +1233,7 @@ On this split workspace, you can:
                   value={activeDoc.content}
                   onChange={(e) => setActiveDoc((prev) => ({ ...prev, content: e.target.value }))}
                   placeholder="Counsel notes, compiled legal arguments, draft agreements, and memorandum sections can be composed here..."
-                  className="w-full h-full bg-slate-950/30 border border-slate-850 hover:border-slate-800 focus:border-emerald-900 rounded-xl p-4 text-sm font-mono text-slate-300 leading-relaxed outline-none resize-none focus:ring-2 focus:ring-emerald-900/20 transition-all shadow-inner"
+                  className="w-full h-full bg-slate-950/30 border border-slate-850 hover:border-slate-800 focus:border-indigo-900 rounded-xl p-4 text-sm font-mono text-slate-300 leading-relaxed outline-none resize-none focus:ring-2 focus:ring-indigo-900/20 transition-all shadow-inner"
                 />
               </div>
 
@@ -1229,7 +1241,7 @@ On this split workspace, you can:
               <div className="p-3 bg-slate-950 border-t border-slate-800 flex items-center justify-between text-xs text-slate-400">
                 <div className="flex items-center gap-2">
                   {saveStatus ? (
-                    <span id="scratchpad-save-indicator" className="text-emerald-400 font-bold flex items-center gap-1">
+                    <span id="scratchpad-save-indicator" className="text-indigo-400 font-bold flex items-center gap-1">
                       <Check className="w-3.5 h-3.5" />
                       {saveStatus}
                     </span>
@@ -1248,7 +1260,7 @@ On this split workspace, you can:
                   >
                     {copiedScratchpad ? (
                       <>
-                        <Check className="w-3.5 h-3.5 text-emerald-400" />
+                        <Check className="w-3.5 h-3.5 text-indigo-400" />
                         <span>Copied!</span>
                       </>
                     ) : (
@@ -1265,7 +1277,7 @@ On this split workspace, you can:
                     className="p-1.5 text-slate-400 hover:text-white hover:bg-slate-900 border border-slate-850 hover:border-slate-800 rounded-lg transition-all flex items-center gap-1 cursor-pointer"
                     title="Export draft notes to your desktop as a .txt document file"
                   >
-                    <Download className="w-3.5 h-3.5 text-emerald-400" />
+                    <Download className="w-3.5 h-3.5 text-indigo-400" />
                     <span>Export Pleadings</span>
                   </button>
                 </div>
