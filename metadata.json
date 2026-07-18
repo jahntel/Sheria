@@ -1,0 +1,6 @@
+{
+  "name": "Jua Sheria",
+  "description": "A dual-persona legal chatbot application for Kenyan citizens seeking clear information, and lawyers requiring advanced research and litigation brainstorming.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
