@@ -82,9 +82,10 @@ function hashPassword(password: string): string {
 }
 
 // File Paths for Persistence
-const USERS_FILE = path.join(process.cwd(), "users_db.json");
-const DOCS_FILE = path.join(process.cwd(), "documents_db.json");
-const CHATS_FILE = path.join(process.cwd(), "chats_db.json");
+const baseDbPath = process.env.VERCEL ? "/tmp" : process.cwd();
+const USERS_FILE = path.join(baseDbPath, "users_db.json");
+const DOCS_FILE = path.join(baseDbPath, "documents_db.json");
+const CHATS_FILE = path.join(baseDbPath, "chats_db.json");
 
 // Seed standard mock users for easy citizen/lawyer testing
 const seedUsers = [
@@ -804,4 +805,8 @@ async function startServer() {
   });
 }
 
-startServer();
+if (!process.env.VERCEL) {
+  startServer();
+}
+
+export default app;
