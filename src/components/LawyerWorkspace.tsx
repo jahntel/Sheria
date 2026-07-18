@@ -888,7 +888,7 @@ On this split workspace, you can:
                     {m.role === "user" ? (
                       <p className="text-sm font-medium whitespace-pre-wrap leading-relaxed">{m.content}</p>
                     ) : (
-                      <FormattedMessage content={m.content} citations={m.citations} />
+                      <FormattedMessage content={m.content} citations={m.citations} isDark={true} />
                     )}
 
                     {/* Quick copy/append controls on assistant messages */}
@@ -937,7 +937,7 @@ On this split workspace, you can:
                 </div>
                 <div className="space-y-1">
                   <div className="p-4 rounded-xl bg-slate-900 border border-emerald-800/40 text-slate-200 rounded-tl-none">
-                    <FormattedMessage content={currentStream} citations={activeCitations} />
+                    <FormattedMessage content={currentStream} citations={activeCitations} isDark={true} />
                     <span className="inline-block w-2.5 h-4 bg-emerald-400 animate-pulse ml-1 align-middle" />
                   </div>
                   <span className="block text-[9px] text-slate-500 font-bold">
