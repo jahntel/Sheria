@@ -1,0 +1,329 @@
+[
+  {
+    "id": "session-7cgi2b7zq",
+    "userId": "user-t4cs2a0q5",
+    "title": "Draft a comprehensive Memorandum of...",
+    "role": "lawyer",
+    "messages": [
+      {
+        "id": "lawyer-welcome-1t57hep98",
+        "role": "assistant",
+        "content": "Counsel advocate, welcome to your specialized **Jua Sheria litigation brainstorm hub**.\n\nI am primed with the Constitution of Kenya 2010, the Employment Act Chapter 226, Tenant legislation, and Chapter 63 of the Penal Code.\n\nOn this split workspace, you can:\n1. Brainstorm legal theories, check statutory elements of proof, and evaluate adversarial defenses on the **Chat interface**.\n2. Edit agreements, draft pleadings, and export your legal submissions directly in the **Scratchpad workspace**.\n\n*Quick Actions:* Use the suggestions below to initialize statutory reviews, or click \"Append to Draft\" on any message to transfer findings instantly to your editor.",
+        "timestamp": "16:13"
+      },
+      {
+        "id": "msg-cruialky1",
+        "role": "user",
+        "content": "Draft a comprehensive Memorandum of Defense for an illegal tenant eviction under the Landlord and Tenant Act. Focus on the requirements of Section 4 notice and the Landlord's obligations to keep premises habitable in Section 12.",
+        "timestamp": "16:13"
+      },
+      {
+        "id": "msg-kqj01bhyg",
+        "role": "assistant",
+        "content": "### REPUBLIC OF KENYA\n### IN THE RENT RESTRICTION TRIBUNAL AT [INSERT CITY/TOWN, E.G., NAIROBI]\n### TRIBUNAL CASE NO. [INSERT CASE NUMBER] OF [INSERT YEAR]\n\n**BETWEEN**\n\n**[INSERT LANDLORD'S NAME]** ……………………………………………… **LANDLORD/APPLICANT**\n\n**AND**\n\n**[INSERT TENANT'S NAME]** ………………………………………………… **TENANT/RESPONDENT**\n\n---\n\n### **WRITTEN STATEMENT OF DEFENCE AND COUNTERCLAIM**\n\nThe Tenant/Respondent herein, in response to the Landlord’s Reference/Application dated **[Insert Date]**, states and counterclaims as follows:\n\n#### **I. DEFENCE**\n\n1. Save as is hereinafter expressly admitted, the Tenant denies each and every allegation of fact contained in the Landlord’s Reference/Application as if the same were set out herein and traversed *seriatim*.\n\n2. The Tenant admits the existence of a tenancy relationship between the parties in respect of the suit premises known as **[Insert Property Description/LR Number]** (hereinafter referred to as \"the suit premises\").\n\n3. **DENIAL OF LAWFUL EVICTION AND ALTERATION OF TERMS:** \n   The Tenant denies that the Landlord has any lawful basis to evict the Tenant or to unilaterally alter the terms of the tenancy. The Tenant states that any attempt by the Landlord to evict the Tenant or alter the tenancy terms without complying with the strict statutory procedures is illegal, null, and void *ab initio* under **[Citation: Section 4 of the Landlord and Tenant Act]**.\n\n4. **BREACH OF STATUTORY NOTICE REQUIREMENTS:**\n   The Tenant states that the Landlord has failed to serve any statutory notice of termination, eviction, or rent increment in the prescribed statutory form as mandatorily required under **[Citation: Section 4 of the Landlord and Tenant Act]**. In the absence of such statutory notice or the Tenant's express written consent, the Landlord's actions constitute a flagrant violation of the law.\n\n5. **BREACH OF THE IMPLIED COVENANT OF HABITABILITY:**\n   The Tenant states that the Landlord has consistently failed, neglected, and/or refused to maintain the suit premises in a tenantable state of repair. Specifically, the Landlord has breached the statutory implied covenant to keep the premises fit for human habitation, failing to address structural defects, water supply failures, and drainage system breakdowns, contrary to **[Citation: Section 12 of the Landlord and Tenant Act]**.\n\n6. **RIGHT TO PROPERTY AND FAIR ADMINISTRATIVE ACTION:**\n   The Tenant contends that the Landlord's unilateral actions, including threats of forceful eviction and disconnection of essential utilities, constitute an infringement on the Tenant's right to quiet enjoyment and property rights protected under **[Citation: Article 40 of the Constitution of Kenya 2010]**.\n\n---\n\n#### **II. COUNTERCLAIM**\n\nThe Tenant repeats the allegations contained in paragraphs 1 to 6 of the Defence herein and counterclaims against the Landlord as follows:\n\n7. The Tenant is, and has at all material times been, a lawful tenant of the suit premises.\n\n8. **PARTICULARS OF BREACH OF HABITABILITY BY THE LANDLORD:**\n   The Landlord has breached **[Citation: Section 12 of the Landlord and Tenant Act]** by:\n   * Failing to repair structural cracks in the walls of the suit premises.\n   * Neglecting the main water supply and drainage systems, leading to persistent flooding and lack of clean water.\n   * Failing to maintain common areas, creating a severe health and safety hazard.\n\n9. **PARTICULARS OF ILLEGAL EVICTION ATTEMPTS:**\n   The Landlord has engaged in unlawful self-help tactics to evict the Tenant by:\n   * Threatening physical eviction without a Tribunal Order.\n   * Unilaterally disconnecting water and electricity supply to force the Tenant out, in direct violation of **[Citation: Section 4 of the Landlord and Tenant Act]**.\n\n10. By reason of the Landlord's breaches, the Tenant has suffered great inconvenience, mental distress, loss of quiet enjoyment, and has incurred expenses in undertaking emergency repairs to make the premises habitable.\n\n---\n\n### **REMEDIES SOUGHT BY THE TENANT/COUNTER-CLAIMANT**\n\nThe Tenant/Counter-Claimant prays for judgment against the Landlord for:\n\n1. A declaration that the Landlord’s attempt to evict the Tenant and/or alter the tenancy terms without serving the prescribed statutory notice under **[Citation: Section 4 of the Landlord and Tenant Act]** is illegal, unlawful, and void.\n2. A permanent injunction restraining the Landlord, his agents, servants, and/or employees from evicting, locking out, or in any other manner interfering with the Tenant’s quiet enjoyment of the suit premises without a lawful order from this Honourable Tribunal.\n3. An order directing the Landlord to immediately undertake all necessary structural and drainage repairs to restore the suit premises to a state fit for human habitation in compliance with **[Citation: Section 12 of the Landlord and Tenant Act]**.\n4. In the alternative, an order authorizing the Tenant to undertake the necessary repairs and deduct the certified costs incurred from the monthly rent payable, pursuant to **[Citation: Section 12 of the Landlord and Tenant Act]**.\n5. General damages for breach of the covenant of quiet enjoyment and illegal harassment.\n6. Costs of this Counterclaim and interest thereon.\n\n**DATED** at **[Insert City/Town]** this ………………….. day of ……………………… 20…\n\n**M/S [INSERT LAW FIRM NAME]**  \n<u>**ADVOCATES FOR THE TENANT/RESPONDENT**</u>\n\n---\n\n### **LITIGATION STRATEGY & BRAINSTORMING FOR COUNSEL**\n\n#### **1. Elements of Proof Required to Succeed**\nTo secure a favorable ruling before the Rent Restriction Tribunal, Counsel must establish the following elements:\n* **Existence of Tenancy:** Provide the lease agreement or rent payment receipts to establish a protected tenancy.\n* **Absence of Statutory Notice:** Demonstrate that the Landlord did not serve the prescribed statutory form under **[Citation: Section 4 of the Landlord and Tenant Act]**.\n* **Uninhabitability (Breach of Section 12):** Present photographic evidence, inspection reports from public health officers, or plumber/contractor assessments showing structural, water, or drainage failures under **[Citation: Section 12 of the Landlord and Tenant Act]**.\n* **Quantification of Repair Costs:** If the Tenant repaired the premises, present demand letters, invoices, and receipts to justify rent deduction authorization.\n\n#### **2. Anticipated Adversarial Counter-Arguments & Defenses**\nCounsel must prepare for the following arguments from the Landlord's Advocate:\n* **Tenant's Default on Rent:** The Landlord will likely argue that the Tenant is in breach of **[Citation: Section 15 of the Landlord and Tenant Act]** for non-payment of rent. \n  * *Counter-Strategy:* Argue that the obligation to pay rent is reciprocal to the landlord's obligation to maintain a habitable dwelling under **[Citation: Section 12 of the Landlord and Tenant Act]**. Emphasize that the law permits deduction of repair costs where the landlord defaults.\n* **Denial of Self-Help Eviction:** The Landlord may claim they never attempted illegal eviction or utility disconnection.\n  * *Counter-Strategy:* Secure police occurrence book (OB) extracts, text messages, or affidavit evidence from neighbors confirming the lockout or utility disconnection.",
+        "timestamp": "16:14",
+        "citations": [
+          {
+            "id": "emp-sec35",
+            "actName": "The Employment Act, 2007",
+            "section": "Section 35",
+            "title": "Termination of employment",
+            "text": "Where a contract of service is to be terminated, it shall be terminated as follows: (a) where the contract is for a period of less than a month, it may be terminated by either party on twenty-four hours' notice; (b) where the contract is a monthly contract, by not less than twenty-eight days' notice or payment in lieu of notice; (c) where the contract is for a fixed period or specific task, on expiry or completion."
+          },
+          {
+            "id": "emp-sec26",
+            "actName": "The Employment Act, 2007",
+            "section": "Section 26",
+            "title": "Minimum conditions of employment",
+            "text": "This Part shall constitute basic minimum conditions of employment and shall apply to all employees. Any contract of service that provides for terms that are less favorable to the employee than the minimum conditions prescribed herein shall be deemed to be modified to conform to the statutory minimum conditions."
+          },
+          {
+            "id": "const-art41",
+            "actName": "The Constitution of Kenya 2010",
+            "section": "Article 41",
+            "title": "Labour relations",
+            "text": "Every person has the right to fair labour practices. Every worker has the right to fair remuneration, to reasonable working conditions, to form, join or participate in the activities and programmes of a trade union, and to go on strike. Every employer has the right to form and join an employers' organisation, and to participate in the activities and programmes of an employers' organisation."
+          },
+          {
+            "id": "landlord-sec4",
+            "actName": "The Landlord and Tenant Act",
+            "section": "Section 4",
+            "title": "Restrictions on increasing rent and changing tenancy",
+            "text": "No landlord shall increase the rent of any premises, or alter any terms of tenancy, or evict a tenant without first serving a notice of increment or change in the prescribed statutory form, or by obtaining a corresponding consent from the tenant. Any dispute concerning rent increments or unilateral alterations shall be referred to the Rent Restriction Tribunal for adjudication."
+          },
+          {
+            "id": "landlord-sec12",
+            "actName": "The Landlord and Tenant Act",
+            "section": "Section 12",
+            "title": "Landlord obligations to maintain premises",
+            "text": "It is an implied covenant in every tenancy agreement that the landlord is responsible for keeping the premises in a good state of repair and fit for human habitation. The landlord shall undertake structural repairs, water and drainage system maintenance, and common area upkeep. If the landlord fails, the tenant may seek remedy from the Tribunal, or seek authorization to repair and deduct costs from rent."
+          },
+          {
+            "id": "landlord-sec15",
+            "actName": "The Landlord and Tenant Act",
+            "section": "Section 15",
+            "title": "Tenant obligations",
+            "text": "The tenant shall pay the rent on the dates and in the manner agreed. The tenant shall maintain the interior of the premises in a clean and tenantable condition, repair damage caused by direct negligence, and shall not assign, sublet, or part with possession of the premises without prior written consent from the landlord."
+          },
+          {
+            "id": "const-art40",
+            "actName": "The Constitution of Kenya 2010",
+            "section": "Article 40",
+            "title": "Right to property",
+            "text": "Subject to Article 65, every person has the right, either individually or in association with others, to acquire and own property of any description and in any part of Kenya. The State shall not deprive a person of property of any description, or of any interest in or right over property of any description, unless the deprivation is for a public purpose and is carried out in accordance with this Constitution, prompt payment of full and just compensation is made, and any person who has an interest in, or right over, that property has a right of access to a court of law."
+          }
+        ]
+      }
+    ],
+    "createdAt": "2026-07-18T13:13:36.978Z",
+    "updatedAt": "2026-07-18T13:14:05.009Z"
+  },
+  {
+    "id": "session-5y8amcnew",
+    "userId": "user-t4cs2a0q5",
+    "title": "Initial Litigation Strategy",
+    "role": "lawyer",
+    "messages": [
+      {
+        "id": "lawyer-welcome-8nwhwkjey",
+        "role": "assistant",
+        "content": "Counsel advocate, welcome to your specialized **Jua Sheria litigation brainstorm hub**.\n\nI am primed with the Constitution of Kenya 2010, the Employment Act Chapter 226, Tenant legislation, and Chapter 63 of the Penal Code.\n\nOn this split workspace, you can:\n1. Brainstorm legal theories, check statutory elements of proof, and evaluate adversarial defenses on the **Chat interface**.\n2. Edit agreements, draft pleadings, and export your legal submissions directly in the **Scratchpad workspace**.\n\n*Quick Actions:* Use the suggestions below to initialize statutory reviews, or click \"Append to Draft\" on any message to transfer findings instantly to your editor.",
+        "timestamp": "16:13"
+      }
+    ],
+    "createdAt": "2026-07-18T13:13:36.974Z",
+    "updatedAt": "2026-07-18T13:13:36.974Z"
+  },
+  {
+    "id": "session-jmxs3jgso",
+    "userId": "user-f05oubdwk",
+    "title": "What are my statutory rights for ma...",
+    "role": "citizen",
+    "messages": [
+      {
+        "id": "welcome-msg-rd0i8xqnq",
+        "role": "assistant",
+        "content": "Habari gani Monie! Welcome to **Jua Sheria Citizen Portal**. \n\nI am your AI legal assistant designed to translate complex Kenyan laws into plain, simple English and Swahili. \n\n*Disclaimer: Jua Sheria is an information-only tool. I provide clear statutory guidelines and legal information to raise your awareness, but I do NOT offer official attorney-client legal advice. If you face active litigation, please seek a certified advocate or visit a Huduma Centre.*\n\nSelect one of the common citizen questions below, or type your situation in plain words.",
+        "timestamp": "16:12"
+      },
+      {
+        "id": "msg-zimbriunn",
+        "role": "user",
+        "content": "What are my statutory rights for maternity leave and minimum conditions under the Kenyan Employment Act?",
+        "timestamp": "16:12"
+      },
+      {
+        "id": "msg-3s30az1nr",
+        "role": "assistant",
+        "content": "Sasa rafiki! Welcome to Jua Sheria. Let's talk about your rights as a mother in the Kenyan workplace. The law protects you fully so that you can welcome your bundle of joy without worrying about losing your livelihood. \n\n*Kumbuka (Remember): I am here to give you helpful legal information to boost your awareness, but this is NOT official attorney-client legal advice. If you need formal legal representation, please consult a registered advocate or visit a Huduma Centre.*\n\nTo make this easy to understand, think of maternity leave like a **\"pause button\"** on your job. When you press pause to go take care of your newborn, your salary keeps running, and when you press play again, you must return to the exact same spot—not a worse one!\n\nHere is a breakdown of your statutory rights in clear, bold steps:\n\n*   **Step 1: Get Your Full 3 Months (Miezi Tatu Kamili)**\n    As a female employee, you are entitled to **three (3) months of maternity leave**, and this must be with **full pay**. Your employer cannot slash your salary or deny you benefits just because you are on leave. \n    [Citation: Section 29 of the Employment Act, 2007]\n\n*   **Step 2: Give Your Notice (Peana Taarifa Mapema)**\n    To enjoy this right, you must play your part. You are required to give your employer at least **seven (7) days' written notice** before the date you plan to proceed on your maternity leave. \n    [Citation: Section 29 of the Employment Act, 2007]\n\n*   **Step 3: Claim Your Right to Return to Work (Kazi Yako Iko Salama)**\n    Once your maternity leave is over, you have the absolute right to return to the exact job you had before you left. If that is not possible, your employer must give you a \"reasonably suitable\" job, and the terms and conditions must **not** be less favorable than what you had before. They cannot demote you or cut your pay!\n    [Citation: Section 29 of the Employment Act, 2007]\n\n*   **Step 4: Protection Against Discrimination (Haki ya Usawa)**\n    In Kenya, everyone is equal before the law. Your employer cannot mistreat you, fire you, or refuse to promote you simply because you are pregnant. The Constitution strictly forbids direct or indirect discrimination on the grounds of pregnancy or sex.\n    [Citation: Article 27 of the Constitution of Kenya 2010]\n\n*   **Step 5: Your Right to Reproductive Health Care**\n    As a citizen, you also have a fundamental right to the highest attainable standard of health, which specifically includes reproductive health care. \n    [Citation: Article 43 of the Constitution of Kenya 2010]\n\nIf you ever feel like your employer is trying to push you out or deny you these rights, you can report the matter to the nearest **Labour Office** or visit a **Huduma Centre** for assistance on how to file a complaint. \n\nInaeleweka? Let me know if you have any other questions about this!",
+        "timestamp": "16:12",
+        "citations": [
+          {
+            "id": "emp-sec29",
+            "actName": "The Employment Act, 2007",
+            "section": "Section 29",
+            "title": "Maternity leave",
+            "text": "A female employee shall be entitled to three months' maternity leave with full pay. She shall give her employer not less than seven days' written notice of her intention to proceed on maternity leave. On expiry of maternity leave, she shall have the right to return to the job which she held immediately before her maternity leave or to a reasonably suitable job on terms and conditions which are not less favorable."
+          },
+          {
+            "id": "const-art27",
+            "actName": "The Constitution of Kenya 2010",
+            "section": "Article 27",
+            "title": "Equality and freedom from discrimination",
+            "text": "Every person is equal before the law and has the right to equal protection and equal benefit of the law. Equality includes the full and equal enjoyment of all rights and fundamental freedoms. Women and men have the right to equal treatment, including the right to equal opportunities in political, economic, cultural and social spheres. The State shall not discriminate directly or indirectly against any person on any ground, including race, sex, pregnancy, marital status, health status, ethnic or social origin, colour, age, disability, religion, conscience, belief, culture, dress, language or birth."
+          },
+          {
+            "id": "const-art43",
+            "actName": "The Constitution of Kenya 2010",
+            "section": "Article 43",
+            "title": "Economic and social rights",
+            "text": "Every person has the right to the highest attainable standard of health, which includes the right to health care services, including reproductive health care; to accessible and adequate housing, and to reasonable standards of sanitation; to be free from hunger, and to have adequate food of acceptable quality; to clean and safe water in adequate quantities; to social security; and to education. A person shall not be denied emergency medical treatment."
+          }
+        ]
+      }
+    ],
+    "createdAt": "2026-07-18T13:12:07.292Z",
+    "updatedAt": "2026-07-18T13:12:18.098Z"
+  },
+  {
+    "id": "session-bif51ml21",
+    "userId": "user-f05oubdwk",
+    "title": "What are my statutory rights for ma...",
+    "role": "citizen",
+    "messages": [
+      {
+        "id": "welcome-msg-1ayrd2t4o",
+        "role": "assistant",
+        "content": "Habari gani Monie! Welcome to **Jua Sheria Citizen Portal**. \n\nI am your AI legal assistant designed to translate complex Kenyan laws into plain, simple English and Swahili. \n\n*Disclaimer: Jua Sheria is an information-only tool. I provide clear statutory guidelines and legal information to raise your awareness, but I do NOT offer official attorney-client legal advice. If you face active litigation, please seek a certified advocate or visit a Huduma Centre.*\n\nSelect one of the common citizen questions below, or type your situation in plain words.",
+        "timestamp": "15:55"
+      },
+      {
+        "id": "msg-80rrwfq88",
+        "role": "user",
+        "content": "What are my statutory rights for maternity leave and minimum conditions under the Kenyan Employment Act?",
+        "timestamp": "15:55"
+      },
+      {
+        "id": "msg-guc2d040b",
+        "role": "assistant",
+        "content": "Mocked stream reply (local dev):\n\nHabari gani Monie! Welcome to **Jua Sheria Citizen Portal**. I am your AI legal assistant designed to translate complex Kenyan laws into plain, simple English and Swahili. *Disclaimer: Jua Sheria is an information-only tool. I provide clear statutory guidelines and legal information to raise your awareness, but I do NOT offer official attorney-client legal advice. If you face active litigation, please seek a certified advocate or visit a Huduma Centre. *\n\nSelect one of the common citizen questions below, or type your situation in plain words. What are my statutory rights for maternity leave and minimum conditions under the Kenyan Employment Act? [End of mock reply] ",
+        "timestamp": "15:55",
+        "citations": [
+          {
+            "id": "emp-sec29",
+            "actName": "The Employment Act, 2007",
+            "section": "Section 29",
+            "title": "Maternity leave",
+            "text": "A female employee shall be entitled to three months' maternity leave with full pay. She shall give her employer not less than seven days' written notice of her intention to proceed on maternity leave. On expiry of maternity leave, she shall have the right to return to the job which she held immediately before her maternity leave or to a reasonably suitable job on terms and conditions which are not less favorable."
+          },
+          {
+            "id": "const-art27",
+            "actName": "The Constitution of Kenya 2010",
+            "section": "Article 27",
+            "title": "Equality and freedom from discrimination",
+            "text": "Every person is equal before the law and has the right to equal protection and equal benefit of the law. Equality includes the full and equal enjoyment of all rights and fundamental freedoms. Women and men have the right to equal treatment, including the right to equal opportunities in political, economic, cultural and social spheres. The State shall not discriminate directly or indirectly against any person on any ground, including race, sex, pregnancy, marital status, health status, ethnic or social origin, colour, age, disability, religion, conscience, belief, culture, dress, language or birth."
+          },
+          {
+            "id": "const-art43",
+            "actName": "The Constitution of Kenya 2010",
+            "section": "Article 43",
+            "title": "Economic and social rights",
+            "text": "Every person has the right to the highest attainable standard of health, which includes the right to health care services, including reproductive health care; to accessible and adequate housing, and to reasonable standards of sanitation; to be free from hunger, and to have adequate food of acceptable quality; to clean and safe water in adequate quantities; to social security; and to education. A person shall not be denied emergency medical treatment."
+          }
+        ]
+      },
+      {
+        "id": "msg-avzr16nh3",
+        "role": "user",
+        "content": "maternity laws ",
+        "timestamp": "15:55"
+      },
+      {
+        "id": "msg-ssnq6g2bg",
+        "role": "assistant",
+        "content": "Mocked stream reply (local dev):\n\nHabari gani Monie! Welcome to **Jua Sheria Citizen Portal**. I am your AI legal assistant designed to translate complex Kenyan laws into plain, simple English and Swahili. *Disclaimer: Jua Sheria is an information-only tool. I provide clear statutory guidelines and legal information to raise your awareness, but I do NOT offer official attorney-client legal advice. If you face active litigation, please seek a certified advocate or visit a Huduma Centre. *\n\nSelect one of the common citizen questions below, or type your situation in plain words. What are my statutory rights for maternity leave and minimum conditions under the Kenyan Employment Act? Mocked stream reply (local dev):\n\nHabari gani Monie! Welcome to **Jua Sheria Citizen Portal**. I am your AI legal assistant designed to translate complex Kenyan laws into plain, simple English and Swahili. *Disclaimer: Jua Sheria is an information-only tool. I provide clear statutory guidelines and legal information to raise your awareness, but I do NOT offer official attorney-client legal advice. If you face active litigation, please seek a certified advocate or visit a Huduma Centre. *\n\nSelect one of the common citizen questions below, or type your situation in plain words. What are my statutory rights for maternity leave and minimum conditions under the Kenyan Employment Act? [End of mock reply]  \n\nmaternity laws \n\n[End of mock reply] ",
+        "timestamp": "15:55",
+        "citations": [
+          {
+            "id": "emp-sec29",
+            "actName": "The Employment Act, 2007",
+            "section": "Section 29",
+            "title": "Maternity leave",
+            "text": "A female employee shall be entitled to three months' maternity leave with full pay. She shall give her employer not less than seven days' written notice of her intention to proceed on maternity leave. On expiry of maternity leave, she shall have the right to return to the job which she held immediately before her maternity leave or to a reasonably suitable job on terms and conditions which are not less favorable."
+          },
+          {
+            "id": "const-art27",
+            "actName": "The Constitution of Kenya 2010",
+            "section": "Article 27",
+            "title": "Equality and freedom from discrimination",
+            "text": "Every person is equal before the law and has the right to equal protection and equal benefit of the law. Equality includes the full and equal enjoyment of all rights and fundamental freedoms. Women and men have the right to equal treatment, including the right to equal opportunities in political, economic, cultural and social spheres. The State shall not discriminate directly or indirectly against any person on any ground, including race, sex, pregnancy, marital status, health status, ethnic or social origin, colour, age, disability, religion, conscience, belief, culture, dress, language or birth."
+          }
+        ]
+      },
+      {
+        "id": "msg-pavz65vky",
+        "role": "user",
+        "content": "maternity laws ",
+        "timestamp": "16:04"
+      },
+      {
+        "id": "msg-f313v2gfi",
+        "role": "user",
+        "content": "maternity laws ",
+        "timestamp": "16:06"
+      },
+      {
+        "id": "msg-2w1bknzzw",
+        "role": "user",
+        "content": "what is law ",
+        "timestamp": "16:11"
+      },
+      {
+        "id": "msg-4eomgpy07",
+        "role": "assistant",
+        "content": "Sasa mwananchi! Welcome! Let’s sit down and talk about the law in a way that makes absolute sense, bila kizunguzungu ya sheria (without confusing legal jargon). \n\nBefore we dive in, hapa kuna kashfa kidogo (here is a quick disclaimer): *Jua Sheria is an educational assistant. I am here to give you helpful legal information to raise your awareness, but I do NOT provide official attorney-client legal advice. If you have a serious dispute, please consult a certified advocate or visit a Huduma Centre.*\n\n---\n\n### 1. What is \"The Law\" in Kenya?\nThink of the law as the ultimate \"boma rules\" (homestead rules) for our country. In Kenya, we have one big boss law that rules over every other rule, contract, or custom. \n\n*   **The Supreme Guide:** The Constitution is the highest law in the land. If any other law, contract, or cultural practice goes against the Constitution, that other law is considered powerless and dead on arrival. \n*   **Who must obey?** Everyone! From the local chief to the highest offices, we are all bound by it. \n*   [Citation: Article 2 of the Constitution of Kenya 2010]\n\n---\n\n### 2. Maternity Rights and Your Protection\nWhile my current database records do not contain the specific sections of the *Employment Act* (which usually details the exact number of leave days), the Constitution of Kenya gives you a very powerful shield regarding pregnancy and work!\n\n*   **The Right to Fair Treatment:** The law says that every single person is equal. You have the right to enjoy all opportunities without being sidelined.\n*   **No Discrimination:** An employer or any state officer cannot discriminate against you—either directly or indirectly—on grounds of **pregnancy**, sex, marital status, or health status. \n*   **Analogy:** Think of it like a football match. A referee cannot red-card you or kick you off the pitch simply because you are expecting a baby. That is unfair play!\n*   [Citation: Article 27 of the Constitution of Kenya 2010]\n\n---\n\n### 3. Bold Steps: What Should You Do Next?\n\nIf you are facing issues at work regarding maternity leave or feel you are being treated unfairly because of pregnancy, here is a clear path you can take:\n\n*   **Step 1: Check Your Employment Contract:** Read through your contract or company handbook. It should outline their maternity policy, which must align with national standards.\n*   **Step 2: Visit a Huduma Centre or the Ministry of Labour:** Since I lack the specific statutory clauses of the Employment Act in my current records, the officers at any Huduma Centre or the local Labour Office can guide you on the exact number of fully paid maternity leave days you are entitled to by law.\n*   **Step 3: Report Discrimination:** If an employer threatens to fire you or demote you because you are pregnant, remind them gently of your constitutional rights under `[Citation: Article 27 of the Constitution of Kenya 2010]`. If they persist, you can seek help from a labor officer or a legal aid clinic.\n\nI hope this helps you stand strong and know your rights, dada! Do you have any other questions about your rights?",
+        "timestamp": "16:11",
+        "citations": [
+          {
+            "id": "const-art2",
+            "actName": "The Constitution of Kenya 2010",
+            "section": "Article 2",
+            "title": "Supremacy of the Constitution",
+            "text": "This Constitution is the supreme law of the Republic and binds all persons and all State organs at both levels of government. No person may claim or exercise State authority except as authorised under this Constitution. Any law, including customary law, that is inconsistent with this Constitution is void to the extent of the inconsistency, and any act or omission in contravention of this Constitution is invalid."
+          },
+          {
+            "id": "const-art27",
+            "actName": "The Constitution of Kenya 2010",
+            "section": "Article 27",
+            "title": "Equality and freedom from discrimination",
+            "text": "Every person is equal before the law and has the right to equal protection and equal benefit of the law. Equality includes the full and equal enjoyment of all rights and fundamental freedoms. Women and men have the right to equal treatment, including the right to equal opportunities in political, economic, cultural and social spheres. The State shall not discriminate directly or indirectly against any person on any ground, including race, sex, pregnancy, marital status, health status, ethnic or social origin, colour, age, disability, religion, conscience, belief, culture, dress, language or birth."
+          }
+        ]
+      }
+    ],
+    "createdAt": "2026-07-18T12:55:29.418Z",
+    "updatedAt": "2026-07-18T13:11:26.483Z"
+  },
+  {
+    "id": "session-ynq74vyqb",
+    "userId": "user-f05oubdwk",
+    "title": "what is law ",
+    "role": "citizen",
+    "messages": [
+      {
+        "id": "welcome-msg-1lcj6qiwn",
+        "role": "assistant",
+        "content": "Habari gani Monie! Welcome to **Jua Sheria Citizen Portal**. \n\nI am your AI legal assistant designed to translate complex Kenyan laws into plain, simple English and Swahili. \n\n*Disclaimer: Jua Sheria is an information-only tool. I provide clear statutory guidelines and legal information to raise your awareness, but I do NOT offer official attorney-client legal advice. If you face active litigation, please seek a certified advocate or visit a Huduma Centre.*\n\nSelect one of the common citizen questions below, or type your situation in plain words.",
+        "timestamp": "15:28"
+      },
+      {
+        "id": "msg-kcfnu3lkk",
+        "role": "user",
+        "content": "what is law ",
+        "timestamp": "15:29"
+      },
+      {
+        "id": "msg-joozt8t9j",
+        "role": "user",
+        "content": "what is law ",
+        "timestamp": "15:35"
+      },
+      {
+        "id": "msg-pe2jzcxf5",
+        "role": "user",
+        "content": "labour law",
+        "timestamp": "15:41"
+      },
+      {
+        "id": "msg-9gqr8af0g",
+        "role": "user",
+        "content": "law ",
+        "timestamp": "16:07"
+      }
+    ],
+    "createdAt": "2026-07-18T12:28:44.892Z",
+    "updatedAt": "2026-07-18T13:07:21.485Z"
+  },
+  {
+    "id": "session-s4ofqhm72",
+    "userId": "user-f05oubdwk",
+    "title": "What are my statutory rights for ma...",
+    "role": "citizen",
+    "messages": [
+      {
+        "id": "welcome-msg-08hk871wg",
+        "role": "assistant",
+        "content": "Habari gani Monie! Welcome to **Jua Sheria Citizen Portal**. \n\nI am your AI legal assistant designed to translate complex Kenyan laws into plain, simple English and Swahili. \n\n*Disclaimer: Jua Sheria is an information-only tool. I provide clear statutory guidelines and legal information to raise your awareness, but I do NOT offer official attorney-client legal advice. If you face active litigation, please seek a certified advocate or visit a Huduma Centre.*\n\nSelect one of the common citizen questions below, or type your situation in plain words.",
+        "timestamp": "15:28"
+      },
+      {
+        "id": "msg-oiylnn5x6",
+        "role": "user",
+        "content": "What are my statutory rights for maternity leave and minimum conditions under the Kenyan Employment Act?",
+        "timestamp": "15:35"
+      }
+    ],
+    "createdAt": "2026-07-18T12:28:44.636Z",
+    "updatedAt": "2026-07-18T12:35:42.994Z"
+  }
+]

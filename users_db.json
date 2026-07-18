@@ -1,0 +1,34 @@
+[
+  {
+    "id": "user-citizen",
+    "email": "citizen@juasheria.co.ke",
+    "passwordHash": "4b4b4c19fdc4b422ca5a52085c3ba8fd2087c62afb06dae791f8fb9c51c56b4b",
+    "role": "citizen",
+    "fullName": "Mwangi Kamau",
+    "createdAt": "2026-07-18T12:27:34.036Z"
+  },
+  {
+    "id": "user-lawyer",
+    "email": "lawyer@juasheria.co.ke",
+    "passwordHash": "ac3226b60081e5f9f9f1f784838aca038eb7c2f7411cb90702b6c2bfe07a45a9",
+    "role": "lawyer",
+    "fullName": "Counsel Adhiambo Onyango",
+    "createdAt": "2026-07-18T12:27:34.037Z"
+  },
+  {
+    "id": "user-f05oubdwk",
+    "email": "monierose2024@gmail.com",
+    "passwordHash": "00014a1af60fd00d3db618d619bd57a8d86b08465a7f12f8975f695ac8f6563d",
+    "role": "citizen",
+    "fullName": "Monie ",
+    "createdAt": "2026-07-18T12:28:44.417Z"
+  },
+  {
+    "id": "user-t4cs2a0q5",
+    "email": "gmrw06@gmail.com",
+    "passwordHash": "ef830280a9d791164e85601c72a6396cc6d622994fc9e94f4daa35704d0f619c",
+    "role": "lawyer",
+    "fullName": "Monie advocate",
+    "createdAt": "2026-07-18T13:13:35.528Z"
+  }
+]

@@ -16,21 +16,68 @@ import { User, UserRole, LawCitation, ScratchpadDocument, ChatSession } from "./
 // Load environment variables
 dotenv.config();
 
+// Helpful environment warnings for developers
+if (!process.env.GOOGLE_APPLICATION_CREDENTIALS) {
+  console.warn("[JUA SHERIA] WARNING: GOOGLE_APPLICATION_CREDENTIALS is not set. Server-side Google API calls may fail with 'Could not load the default credentials'. See https://cloud.google.com/docs/authentication/getting-started");
+} else {
+  try {
+    if (!fs.existsSync(process.env.GOOGLE_APPLICATION_CREDENTIALS)) {
+      console.warn("[JUA SHERIA] WARNING: GOOGLE_APPLICATION_CREDENTIALS points to a file that does not exist:", process.env.GOOGLE_APPLICATION_CREDENTIALS);
+    }
+  } catch (e) {
+    /* ignore */
+  }
+}
+
+if (!process.env.GEMINI_API_KEY) {
+  console.warn("[JUA SHERIA] WARNING: GEMINI_API_KEY is not defined. The Google GenAI client may not authenticate correctly.");
+}
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT ? parseInt(process.env.PORT, 10) : 3000;
 
-// Setup Gemini Client
-const ai = new GoogleGenAI({
-  apiKey: process.env.GEMINI_API_KEY,
-  httpOptions: {
-    headers: {
-      "User-Agent": "aistudio-build",
+// Setup Gemini Client (or a local mock when credentials are not provided)
+let ai: any;
+
+const haveGeminiKey = !!process.env.GEMINI_API_KEY;
+
+if (haveGeminiKey) {
+  ai = new GoogleGenAI({
+    apiKey: process.env.GEMINI_API_KEY,
+    httpOptions: {
+      headers: {
+        "User-Agent": "aistudio-build",
+      },
     },
-  },
-});
+  });
+} else {
+  console.warn("[JUA SHERIA] No GEMINI_API_KEY found — using local mock AI for development.");
+
+  // Minimal mock implementation that matches the small part of the GenAI surface used in this app.
+  ai = {
+    models: {
+      async generateContent(opts: any) {
+        const lastPart = Array.isArray(opts.contents) ? opts.contents[opts.contents.length - 1] : opts.contents;
+        const text = (lastPart && lastPart.parts && lastPart.parts.length > 0 && lastPart.parts[0].text) || "(no input)";
+        return { text: `Mocked answer (local dev):\n\n${text}\n\n[This response was generated locally because GEMINI_API_KEY is not set].` };
+      },
+
+      async *generateContentStream(opts: any) {
+        // Create a simple echoed response split into chunks to simulate streaming
+        const combined = (opts.contents || []).map((c: any) => (c.parts && c.parts.map((p: any) => p.text).join(" ")) || "").join(" \n\n");
+        const reply = `Mocked stream reply (local dev):\n\n${combined}\n\n[End of mock reply]`;
+        // Split into small chunks by sentences
+        const chunks = reply.match(/[^\.?!]+[\.?!]+|[^\.?!]+$/g) || [reply];
+        for (const ch of chunks) {
+          yield { text: ch.trim() + " " };
+        }
+      },
+    },
+  };
+}
 
 // Configure base middleware
 app.use(express.json());
